@@ -10,3 +10,9 @@ const age = 40
 
 export { name, age }
 */
+
+
+/*
+how to import named exports:
+import { name, age } from "./person.js";
+*/
