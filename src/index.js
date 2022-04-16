@@ -1,6 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-const myfirstelement = <h1>Hello React!</h1>
+// const myfirstelement = <h1>Hello React!</h1>
 
-ReactDOM.render(myfirstelement, document.getElementById('root'))
+const myelement = (
+  <table>
+    <tr>
+      <th>Name</th>
+    </tr>
+    <tr>
+      <td>John</td>
+    </tr>
+    <tr>
+      <td>Elsa</td>
+    </tr>
+  </table>
+)
+
+// ReactDOM.render(myfirstelement, document.getElementById('root'))
+// ReactDOM.render(<p>Hello</p>, document.getElementById('root'))
+ReactDOM.render(myelement, document.getElementById('root'))
+
+// React renders HTML to the web page by using a function called ReactDOM.render().
+// this is rendered to the div in index.html where root is found
